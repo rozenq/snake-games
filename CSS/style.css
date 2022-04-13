@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.corpo {
+    background: url("/img/cobrinha.png") ;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+#pontuacao {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+}
+
+#board {
+    width: 90vh;
+    height: 90vh;
+    background: rgba(154, 216, 169, 0.301);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+
+}
+
+div.head {
+    background:rgb(38, 71, 38);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+div.snake {
+    background:linear-gradient(rgb(2, 56, 7),rgb(255, 255, 255));
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+div.fruta {
+    background: url("/img/fruta.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+
